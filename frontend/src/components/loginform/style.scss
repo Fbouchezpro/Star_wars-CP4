@@ -1,0 +1,50 @@
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+
+  h1 {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: darkgoldenrod;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  button {
+    height: 3rem;
+    width: 10rem;
+    background: -webkit-linear-gradient(
+      45deg,
+      #404040 0%,
+      #404040 60%,
+      #535353 60%,
+      #494949
+    );
+    color: darkgoldenrod;
+    border: 1px solid black;
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+}
+
+.inputLogin {
+  height: 3rem;
+  width: 100%;
+  background: -webkit-linear-gradient(
+    45deg,
+    #404040 0%,
+    #404040 60%,
+    #535353 60%,
+    #494949
+  );
+  color: darkgoldenrod;
+  border: 1px solid black;
+  transition: box-shadow 0.3s;
+}
+
+.inputLoginForm {
+  display: block;
+  margin: auto;
+}
