@@ -13,7 +13,7 @@ function App() {
         <Route path="/" element={<Login />} />
         <Route path="/register" element={<RegisterForm />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/dscript" element={<DetailScript />} />
+        <Route path="/dscript/:id" element={<DetailScript />} />
         <Route path="/submit" element={<Scriptsubmit />} />
       </Routes>
     </div>

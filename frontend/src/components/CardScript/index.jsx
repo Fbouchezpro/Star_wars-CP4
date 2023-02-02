@@ -1,16 +1,27 @@
+import PropTypes from "prop-types";
 import "./style.scss";
 
-export default function CardScript() {
+export default function CardScript({ data }) {
   return (
     <div className="Scard">
       <div className="Stitle">
-        <h4>Titre du Script</h4>
+        <h4>{data.title}</h4>
       </div>
       <div className="Sinfo">
-        <p>👤Min P:</p>
-        <p>👥Max P:</p>
-        <p>🪐Planet:</p>
+        <p>👤Min P:{data.minplayer}</p>
+        <p>👥Max P:{data.maxplayer}</p>
+        <p>🪐Planet:{data.planets_id}</p>
       </div>
     </div>
   );
 }
+
+CardScript.propTypes = {
+  data: PropTypes.shape({
+    title: PropTypes.string.isRequired,
+    id: PropTypes.number.isRequired,
+    minplayer: PropTypes.number.isRequired,
+    maxplayer: PropTypes.number.isRequired,
+    planets_id: PropTypes.number.isRequired,
+  }).isRequired,
+};
