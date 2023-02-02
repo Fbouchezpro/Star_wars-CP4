@@ -7,3 +7,28 @@
     color: goldenrod;
   }
 }
+
+.Hbutton {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+
+  button {
+    height: 5rem;
+    width: 5rem;
+    background: -webkit-linear-gradient(
+      45deg,
+      #404040 0%,
+      #404040 60%,
+      #535353 60%,
+      #494949
+    );
+    color: darkgoldenrod;
+    border: 1px solid black;
+    font-size: 3rem;
+    font-weight: bolder;
+    border-radius: 50%;
+    text-align: center;
+  }
+}

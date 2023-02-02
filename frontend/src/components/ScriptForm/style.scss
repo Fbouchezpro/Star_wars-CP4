@@ -1,0 +1,42 @@
+.Sform {
+  color: goldenrod;
+  display: flex;
+  flex-direction: column;
+  textarea {
+    width: 80vw;
+    background: -webkit-linear-gradient(
+      45deg,
+      #404040 0%,
+      #404040 60%,
+      #535353 60%,
+      #494949
+    );
+    color: darkgoldenrod;
+  }
+}
+
+.Stitle {
+  display: flex;
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 3rem;
+  height: 10vh;
+}
+
+.playeroption {
+  display: flex;
+  flex-direction: row;
+  width: 35vw;
+  justify-content: space-around;
+
+  select {
+    background: -webkit-linear-gradient(
+      45deg,
+      #404040 0%,
+      #404040 60%,
+      #535353 60%,
+      #494949
+    );
+    color: darkgoldenrod;
+  }
+}

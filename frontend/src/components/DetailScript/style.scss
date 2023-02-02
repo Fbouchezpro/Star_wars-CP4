@@ -1,0 +1,62 @@
+.Dscript {
+  display: flex;
+  padding: 2rem;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  row-gap: 3rem;
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 10rem;
+    background: -webkit-linear-gradient(
+      45deg,
+      #404040 0%,
+      #404040 60%,
+      #535353 60%,
+      #494949
+    );
+    color: darkgoldenrod;
+    border: 1px solid black;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+}
+
+.Dtitle {
+  border: solid 5px grey;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+  padding: 2rem;
+  width: 80%;
+  text-align: center;
+  font-size: 3.5rem;
+  color: goldenrod;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.Dinfo {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  border: solid 5px grey;
+  border-radius: 10px;
+  justify-content: space-evenly;
+  color: #b0c0fb;
+}
+
+.Dtext {
+  height: 60vh;
+  overflow: auto;
+  color: #b0c0fb;
+  border: solid 5px grey;
+  border-radius: 10px;
+  padding: 1rem;
+}
