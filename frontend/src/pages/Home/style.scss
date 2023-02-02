@@ -1,10 +1,34 @@
+.Home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 10rem;
+  background: -webkit-linear-gradient(
+    45deg,
+    #404040 0%,
+    #404040 60%,
+    #535353 60%,
+    #494949
+  );
+  color: darkgoldenrod;
+  border: 1px solid black;
+  font-size: 1rem;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
 .Hheader {
   display: flex;
   justify-content: center;
   margin: 3rem;
   p {
-    font-size: 5rem;
-    color: goldenrod;
+    font-size: 4rem;
+    text-align: center;
+    color: #000000;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: darkgoldenrod;
+    font-weight: bold;
   }
 }
 
@@ -24,8 +48,10 @@
       #535353 60%,
       #494949
     );
-    color: darkgoldenrod;
-    border: 1px solid black;
+    color: #000000;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: darkgoldenrod;
+    border: 4px solid black;
     font-size: 3rem;
     font-weight: bolder;
     border-radius: 50%;

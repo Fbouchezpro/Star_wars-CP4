@@ -1,6 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
 import "./style.scss";
+import Swal from "sweetalert2";
 
 export default function ScriptForm() {
   const [newScript, setNewScript] = useState({
@@ -28,13 +29,28 @@ export default function ScriptForm() {
     evt.preventDefault();
     axios
       .post(`${import.meta.env.VITE_BACKEND_URL}/scripts`, newScript)
+      .then(() => {
+        Swal.fire({
+          icon: "success",
+          title: "Script successfully created!",
+          text: "Thank you for share your script with the new empire",
+          timer: 2000,
+        });
+      })
       .catch((err) => {
         console.error(err);
+        Swal.fire({
+          icon: "error",
+          title: "The Dark side is strong here!",
+          text: "Not this time bro",
+          timer: 2000,
+        });
       });
   };
 
   return (
     <div className="Sform">
+      <a href="/home">Retour</a>
       <div className="Stitle">
         <p>Your wrote a Script?Send him to the empire!</p>
       </div>

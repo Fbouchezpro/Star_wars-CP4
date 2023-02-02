@@ -1,9 +1,25 @@
 .Sform {
-  color: goldenrod;
+  p {
+    color: #000000;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: darkgoldenrod;
+  }
   display: flex;
   flex-direction: column;
   textarea {
     width: 80vw;
+    background: rgba(0, 0, 0, 0.8);
+    color: darkgoldenrod;
+  }
+  input {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 10rem;
     background: -webkit-linear-gradient(
       45deg,
       #404040 0%,
@@ -12,6 +28,10 @@
       #494949
     );
     color: darkgoldenrod;
+    border: 1px solid black;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-decoration: none;
   }
 }
 
@@ -30,13 +50,7 @@
   justify-content: space-around;
 
   select {
-    background: -webkit-linear-gradient(
-      45deg,
-      #404040 0%,
-      #404040 60%,
-      #535353 60%,
-      #494949
-    );
+    background: rgba(0, 0, 0, 0.8);
     color: darkgoldenrod;
   }
 }

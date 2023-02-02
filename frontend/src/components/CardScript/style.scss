@@ -12,8 +12,6 @@
     color: goldenrod;
     font-size: 1rem;
     font-weight: bold;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   }
 }
 
@@ -24,8 +22,6 @@
   h4 {
     color: goldenrod;
     font-size: 2.5rem;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   }
 }
 
@@ -37,4 +33,32 @@
 }
 a {
   text-decoration: none;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .Stitle {
+    h4 {
+      font-size: 1.5rem;
+    }
+  }
+
+  .Scard {
+    p {
+      font-size: 1rem;
+    }
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .Stitle {
+    h4 {
+      font-size: 2rem;
+    }
+  }
+
+  .Scard {
+    p {
+      font-size: 1rem;
+    }
+  }
 }

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./style.scss";
 
 export default function LoginForm() {
@@ -22,9 +23,11 @@ export default function LoginForm() {
             placeholder="Password"
           />
         </label>
-        <button type="button" className="loginSubmit">
-          Connect
-        </button>
+        <Link to="/home">
+          <button type="button" className="loginSubmit">
+            Connect
+          </button>
+        </Link>
         <br />
         <a href="/register">Enroll Now!</a>
       </form>

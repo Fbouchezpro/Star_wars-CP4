@@ -16,6 +16,9 @@ export default function Home() {
   }, []);
   return (
     <>
+      <a className="Home" href="/">
+        LogOut
+      </a>
       <Logo />
       <div className="Hheader">
         <p>Last Script Publish</p>

@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/no-absolute-path
-import logo from "/home/bouchez/Star_wars-CP4/frontend/src/assets/logo.jpeg";
+import logo from "/home/bouchez/Star_wars-CP4/frontend/src/assets/logo.svg";
 import "./style.scss";
 
 export default function Logo() {

@@ -7,6 +7,7 @@ export default function CardScript({ data }) {
       <div className="Stitle">
         <h4>{data.title}</h4>
       </div>
+      <br />
       <div className="Sinfo">
         <p>👤Min P:{data.minplayer}</p>
         <p>👥Max P:{data.maxplayer}</p>

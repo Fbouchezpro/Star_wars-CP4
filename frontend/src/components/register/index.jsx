@@ -3,6 +3,7 @@ import "./style.scss";
 export default function Register() {
   return (
     <div className="registerform">
+      <a href="/">Retour</a>
       <form className="formclass">
         <h1>Who want to enroll?</h1>
         <input type="email" name="email" placeholder="email" />
